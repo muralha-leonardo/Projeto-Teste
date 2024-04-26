@@ -2,6 +2,7 @@ const form = document.getElementById('login-form');
 const usernameInput = document.getElementById('username');
 const passwordInput = document.getElementById('password');
 const loginMessage = document.getElementById('login-message');
+const tipo_da_moeda = document.getElementById('tipo_moeda');
 const valor_de_pagamento = document.getElementById('valor');
 
 form.addEventListener('submit', (e) => {
